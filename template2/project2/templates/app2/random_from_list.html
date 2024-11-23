@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: green;
+            color: white;
+            text-align: center;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h1>hello good morning, now server time is:{{date}}</h1>
+    <h2>msg for you:{{msg}}</h2>
+    <h3>customer name is:{{name}}</h3>
+    <div>
+    <table border="2px">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>city</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    {{name}}
+                </td>
+                <td>{{date}}</td>
+                <td>{{msg}}</td>
+            </tr>
+            <tr>
+                <td>baban</td>
+                <td>21</td>
+                <td>pune</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+
+</html>
